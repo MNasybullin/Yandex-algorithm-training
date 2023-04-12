@@ -152,6 +152,33 @@ import Foundation
 //print(res)
 
 
+// MARK: - H. Метро | Status = OK
+//let a = Int(readLine()!)!
+//let b = Int(readLine()!)!
+//let n = Int(readLine()!)!
+//let m = Int(readLine()!)!
+//
+//func getMin(a: Int, n: Int) -> Int {
+//    return n + a * (n - 1)
+//}
+//
+//func getMax(a: Int, n: Int) -> Int {
+//    return n + a * (n + 1)
+//}
+//
+//let min1 = getMin(a: a, n: n)
+//let max1 = getMax(a: a, n: n)
+//let min2 = getMin(a: b, n: m)
+//let max2 = getMax(a: b, n: m)
+//
+//let maxFromMin = max(min1, min2)
+//let minFromMax = min(max1, max2)
+//if maxFromMin <= minFromMax {
+//    print("\(maxFromMin) \(minFromMax)")
+//} else {
+//    print("-1")
+//}
+
 // MARK: - I. Узник замка Иф | Status = OK
 //let a = Int(readLine()!)!
 //let b = Int(readLine()!)!
