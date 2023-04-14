@@ -138,6 +138,35 @@ import Foundation
 //check()
 //print(res)
 
+// MARK: - E. Чемпионат по метанию коровьих лепешек
+
+//let count = Int(readLine()!)!
+//var array = readLine()!.split(separator: " ").map { Int($0)! }
+//
+//func solve(array: [Int], count: Int) {
+//    var vasya: Int = 0
+//    let max = array.max()
+//    var maxFlag = false
+//
+//    for i in 0..<count - 1 {
+//        if array[i] == max {
+//            maxFlag = true
+//        }
+//        if array[i] % 10 == 5 && array[i] > array[i + 1] && maxFlag == true {
+//            if array[i] > vasya {
+//                vasya = array[i]
+//            }
+//        }
+//    }
+//    if vasya == 0 {
+//        print(0)
+//    } else {
+//        print(array.sorted(by: >).firstIndex(of: vasya)! + 1)
+//    }
+//}
+//
+//solve(array: array, count: count)
+
 // MARK: - F. Симметричная последовательность | Status = OK
 
 //let count = Int(readLine()!)!
