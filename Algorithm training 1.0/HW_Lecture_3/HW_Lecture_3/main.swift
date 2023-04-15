@@ -93,6 +93,50 @@ import Foundation
 //print(count)
 
 
-// MARK: - G. Черепахи | Status =
+// MARK: - G. Черепахи | Status = OK
+
+//let n = Int(readLine()!)!
+//var set = Set<[Int]>()
+//for _ in 0..<n {
+//    let input = readLine()!.split(separator: " ").map { Int($0)! }
+//    if input[0] >= 0 && input[1] >= 0 && input[0] + input[1] == n - 1 {
+//        set.insert(input)
+//    }
+//}
+//print(set.count)
 
 
+// MARK: - H. Злые свинки | Status = OK
+
+//let n = Int(readLine()!)!
+//var set = Set<Int>()
+//for _ in 0..<n {
+//    let input = readLine()!.split(separator: " ").map { Int($0)! }
+//    set.insert(input[0])
+//}
+//print(set.count)
+
+// MARK: - I. Полиглоты | Status = OK
+
+//let n = Int(readLine()!)!
+//var setArr = [Set<String>]()
+//var setAll = Set<String>()
+//for _ in 0..<n {
+//    let ni = Int(readLine()!)!
+//    var set = Set<String>()
+//    for _ in 0..<ni {
+//        let input = readLine()!
+//        set.insert(input)
+//        setAll.insert(input)
+//    }
+//    setArr.append(set)
+//}
+//
+//var setIntersection = setArr[0]
+//for i in 1..<n {
+//    setIntersection.formIntersection(setArr[i])
+//}
+//print(setIntersection.count)
+//setIntersection.forEach { print($0) }
+//print(setAll.count)
+//setAll.forEach { print($0) }
